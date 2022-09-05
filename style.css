@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #121212;
+
+    background: url(img/bg.png);
+}
+
+.page {
+    width: 800px;
+    margin: 20px auto;
+
+    background-color: #fff;
+}
+
+/* Header */
+.header {
+    padding: 20px;
+
+    background-color: #121212;
+}
+.header-title {
+    margin: 0;
+
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+}
+.header-subtitle {
+    margin: 0;
+
+    font-size: 16px;
+    color: #56b6fb;
+    text-align: center;
+    font-weight: 400;
+}
+
+
+
+
+
+
+/* Nav */
+
+
+.nav {
+    text-align: center;
+}
+.nav-link {
+    display: inline-block;
+    padding: 8px 12px;
+
+    color: #121212;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    background-color: #eee;
+}
+
+
+/* Content */
+
+.content {
+    padding: 20px;
+}
+
+.content-title {
+    margin: 0 0 15px;
+    font-size: 24px;
+    color: #ce2929;
+}
+
+.content-text {
+    margin-bottom: 20px;
+}
+
+.read-more {
+    color: #1d7abe;
+    text-decoration: none;
+}
+
+.read-more:hover {
+    text-decoration: underline;
+}
+
+
+
+/* Article */
+
+.article {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.article-title {
+    margin: 0 0 5px;
+
+    font-size: 18px;
+    color: #0d448e;
+}
+
+
+.article-title a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.article-title a:hover {
+    text-decoration: underline;
+}
+
+.article-date {
+    color: #ccc;
+    font-size: a4a4a4;
+}
+
+
+/* Footer */
+
+.footer {
+    padding: 20px;
+    background-color: #121212;
+    color: #fff;
+    text-align: center;
+}
